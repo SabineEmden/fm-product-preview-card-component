@@ -58,6 +58,30 @@ h6 {
 
 /* General styles and layout */
 
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url(./fonts/Montserrat-Medium-subset.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(./fonts/Montserrat-Bold-subset.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(./fonts/Fraunces_72pt-Bold-subset.woff2) format("woff2");
+}
+
 :root {
   --dark-cyan: hsl(158, 36%, 37%);
   --cream: hsl(30, 38%, 92%);
