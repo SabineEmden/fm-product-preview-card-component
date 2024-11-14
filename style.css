@@ -110,3 +110,14 @@ main {
   justify-content: center;
   padding-bottom: 24px;
 }
+
+/* Footer */
+
+.attribution {
+  /* 0.75rem => 0.75 * 16px = 12px */
+  font-size: 0.75rem;
+  text-align: center;
+}
+.attribution a {
+  color: var(--dark-cyan);
+}
