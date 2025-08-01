@@ -82,20 +82,23 @@ h6 {
 }
 
 :root {
-  --dark-cyan: hsl(158, 36%, 37%);
-  --cream: hsl(30, 38%, 92%);
-  --very-dark-blue: hsl(212, 21%, 14%);
-  --dark-grayish-blue: hsl(228, 12%, 48%);
-  --white: hsl(0, 0%, 100%);
+  --brand1: hsl(158, 36%, 37%); /* dark cyan */
+  --brand2: hsl(158, 36%, 27%); /* very dark cyan */
+
+  --text1: hsl(212, 21%, 14%); /* very dark blue */
+  --text2: hsl(228, 12%, 48%); /* dark grayish blue */
+
+  --surface1: hsl(0, 0%, 100%); /* white */
+  --surface2: hsl(30, 38%, 92%); /* cream */
 }
 
 body {
-  background-color: var(--cream);
+  background-color: var(--surface2);
   font-family: "Montserrat", sans-serif;
   /* 0.875rem => 0.875 * 16px = 14px */
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--dark-grayish-blue);
+  color: var(--text2);
   display: flex;
   flex-direction: column;
   min-height: 100svh;
@@ -127,5 +130,5 @@ main {
   text-align: center;
 }
 .attribution a {
-  color: var(--dark-cyan);
+  color: var(--brand1);
 }
