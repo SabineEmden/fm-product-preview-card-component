@@ -16,11 +16,17 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
+
+The brief for this project was to build out the product preview card component and get it looking as close to the design as possible, starting with the following assets:
+
+- Figma design file access
+- JPEG design files for mobile & desktop layouts
+- Style guide for fonts, colors, etx.
+- Optimized image assets
+- HTML file with pre-written content
 
 Users should be able to:
 
@@ -41,23 +47,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [GitHub repository](https://github.com/SabineEmden/fm-product-preview-card-component)
+- [Live site](https://sabineemden.github.io/fm-product-preview-card-component/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Responsive media with the picture element
 
 ### What I learned
 
@@ -93,20 +91,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 - [Inclusively Hidden](https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html) by Scott O'Hara - This article describes how to hide content from sighted users while allowing screen readers and other assistive technology to discover and interact with the content.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+I'm an aspiring web developer and a former chemist. What I bring from chemistry to software development is a systematic approach to problem solving and the perseverance to not give up easily.
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@SabineEmden](https://www.frontendmentor.io/profile/SabineEmden)
+- Personal Website - [Sabine Emden](https://www.sabineemden.com/)
+- Mastodon - [@sabineemden](https://social.tchncs.de/@sabineemden)
 
 ## Acknowledgments
 
