@@ -93,14 +93,13 @@ h6 {
 }
 
 body {
-  background-color: var(--surface2);
-  font-family: "Montserrat", sans-serif;
-  /* 0.875rem => 0.875 * 16px = 14px */
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--text2);
   display: flex;
   flex-direction: column;
+  background-color: var(--surface2);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem; /* 0.875rem => 0.875 * 16px = 14px */
+  font-weight: 500;
+  color: var(--text2);
   min-height: 100svh;
   padding: 24px;
 }
@@ -125,8 +124,7 @@ main {
 
 /* Footer */
 .attribution {
-  /* 0.6875rem => 0.6875 * 16px = 11px */
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   text-align: center;
 }
 .attribution a {
