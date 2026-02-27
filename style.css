@@ -130,6 +130,11 @@ main {
   border-radius: 10px;
 }
 
+.product-card__image {
+  width: 100%;
+  object-fit: cover;
+}
+
 .product-card__text-part {
   background-color: var(--surface1);
   padding: 24px;
