@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor solution]()
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/product-preview-card-component-fBcizuw0cF)
 - [Live site](https://sabineemden.github.io/fm-product-preview-card-component/)
 
 ## My process
