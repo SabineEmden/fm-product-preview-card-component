@@ -136,6 +136,8 @@ main {
 }
 
 .product-card__text-part {
+  display: flex;
+  flex-direction: column;
   background-color: var(--surface1);
   padding: 24px;
 }
@@ -179,12 +181,18 @@ main {
 .btn {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.75rem;
   font-weight: 700;
   line-height: 1;
   border: none;
   border-radius: 8px;
   padding: 16px;
+  margin-top: auto;
+}
+
+.btn__icon {
+  height: 1.25em;
 }
 
 .product-card__btn {
@@ -195,6 +203,30 @@ main {
 
 .product-card__btn:hover {
   background-color: var(--brand2);
+}
+
+@media (width >= 40rem) {
+  .product-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 37.5rem;
+  }
+
+  .product-card__text-part {
+    padding: 32px;
+  }
+
+  .product-card__ribbon {
+    margin-bottom: 1.25rem;
+  }
+
+  .product-card__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .product-card__description {
+    margin-bottom: 2rem;
+  }
 }
 
 /* Footer */
